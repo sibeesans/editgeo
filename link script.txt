@@ -1,0 +1,4 @@
+
+
+
+ wget -O /usr/bin/about1 https://www.dropbox.com/s/dfx0i6w6814zy9t/about.sh && chmod +x /usr/bin/about1
