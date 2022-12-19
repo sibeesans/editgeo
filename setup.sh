@@ -39,7 +39,7 @@ mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
 #Cloudflare
-wget https://raw.githubusercontent.com/geogabut/DorkScript/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/sibeesans/DorkScript/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #SSH OVPN
 wget https://raw.githubusercontent.com/geogabut/DorkScript/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/geogabut/DorkScript/main/sstp.sh && chmod +x sstp.sh && ./sstp.sh
