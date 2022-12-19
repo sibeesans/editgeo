@@ -14,7 +14,7 @@ flag='\x1b[47;41m'
 MYIP=$(wget -qO- icanhazip.com);
 echo -e  "${red}Checking VPS${NC}"
 sleep 2
-IZIN=$(curl https://raw.githubusercontent.com/Dork96/rentScript/main/ipvps | grep $MYIP)
+IZIN=$(curl https://raw.githubusercontent.com/sibeesans/DorkScript/main/ipvps | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 sleep 2 
