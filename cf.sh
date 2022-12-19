@@ -7,7 +7,7 @@ echo "Script By geo"
 clear
 apt install jq curl -y
 DOMAIN=sibe-vpn.live
-sub=$(</dev/urandom tr -dc a-z | head -c4)
+sub=$(</dev/urandom tr -dc a-z | head -c5)
 SUB_DOMAIN=${sub}.sibe-vpn.live
 CF_ID=anfuji184@gmail.com
 CF_KEY=8700ccfd51dec7e1c3c95dd44250c7891b913
