@@ -6,13 +6,7 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By geo"
 clear
 apt install jq curl -y
-DOMAIN=sibe-vpn.live
-sub=$(</dev/urandom tr -dc a-z | head -c5)
-SUB_DOMAIN=${sub}.sibe-vpn.live
-CF_ID=anfuji184@gmail.com
-CF_KEY=8700ccfd51dec7e1c3c95dd44250c7891b913
-set -euo pipefail
-IP=$(wget -qO- icanhazip.com);
+
 echo "Updating DNS for ${SUB_DOMAIN}..."
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
      -H "X-Auth-Email: ${CF_ID}" \
